@@ -23,16 +23,16 @@ body {
 
 /* Logo styling */
 .logo {
-  width: 120px;
+  width: 250px; /* Increased width for better balance with text */
   height: auto;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* Heading text styling */
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem; /* Increased font size to match logo */
   letter-spacing: 1px;
   color: #4db8ff; /* Calm blue for text */
   text-transform: uppercase;
