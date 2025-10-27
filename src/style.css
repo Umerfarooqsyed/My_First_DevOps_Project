@@ -1,67 +1,39 @@
-/* Global Styling */
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #0a0f1a, #09142d, #000000);
-    background-size: 400% 400%;
-    animation: gradientShift 15s ease infinite;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: #0a0f1c; /* Dark blueish-black */
+  color: #e0e6ed; /* Light gray text */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-/* Animated gradient background */
-@keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+/* Container to center everything */
+.container {
+  text-align: center;
 }
 
-/* Header credit text */
-header {
-    position: absolute;
-    top: 20px;
-    left: 30px;
-    font-size: 16px;
-    color: #8af7ff;
-    font-weight: 500;
+/* Logo styling */
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
-/* Main content center alignment */
-main {
-    text-align: center;
-}
-
-/* Infinity DevOps logo */
-.devops-logo {
-    width: 300px;
-    margin-bottom: 25px;
-}
-
-/* Headings with neon glow */
-h1, h2 {
-    margin: 0;
-    font-weight: 600;
-    color: #00f6ff;
-    text-shadow: 0 0 10px #00f6ff, 0 0 20px #00f6ff, 0 0 40px #00f6ff;
-}
-
-/* Responsive font sizes */
+/* Heading text styling */
 h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 1.8rem;
-    margin-top: 8px;
-}
-
-/* Editable hover effect */
-[contenteditable="true"]:hover {
-    outline: 2px dashed #00f6ff;
-    cursor: text;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #4db8ff; /* Calm blue for text */
+  text-transform: uppercase;
 }
