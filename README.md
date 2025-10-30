@@ -109,6 +109,18 @@ Both setups were successfully tested to ensure full automation and reliability.
 
 <img width="1138" height="328" alt="image" src="https://github.com/user-attachments/assets/e9b4807a-7273-468f-b65e-63e8454b35a4" />
 
+---
+
+## ArgoCD 
+
+<img width="1276" height="579" alt="image" src="https://github.com/user-attachments/assets/4c1b41aa-df4d-4a36-840c-3e938ec4e16a" />
+
+---
+
+## Web UI After Deployment
+
+<img width="1289" height="670" alt="image" src="https://github.com/user-attachments/assets/ce8be90e-6dc9-4f60-8304-f6272a19f35b" />
+
 
 ---
 
