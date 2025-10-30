@@ -27,33 +27,50 @@ I created this project **from scratch**, including the entire **DevOps automatio
 
 ⚙️ DevOps Implementation Flow
 
-🛠️ Created Dockerfile
-Containerized the application
+<table style="width:100%; border-collapse:collapse; border:1px solid #444; border-radius:10px; background-color:#1e1e1e; color:#ddd; padding:12px;">
+  <tr>
+    <td style="padding:10px;">
+      <strong>🛠️ Created Dockerfile</strong><br/>
+      Containerized the application
+    </td>
+  </tr>
 
-<p align="center">⬇️</p>
+  <tr>
+    <td style="padding:10px;">
+      <strong>🤖 Built CI Pipeline on Azure DevOps</strong><br/>
+      Automated Build & Push process
+    </td>
+  </tr>
 
-🤖 Built CI Pipeline on Azure DevOps
-Automated Build & Push process
+  <tr>
+    <td style="padding:10px;">
+      <strong>🐳 Used Docker Hub</strong><br/>
+      Stored built images
+    </td>
+  </tr>
 
-<p align="center">⬇️</p>
+  <tr>
+    <td style="padding:10px;">
+      <strong>📜 Wrote Shell Script in Pipeline</strong><br/>
+      Automatically updated image tags in Kubernetes manifests
+    </td>
+  </tr>
 
-🐳 Used Docker Hub
-Stored built images
+  <tr>
+    <td style="padding:10px;">
+      <strong>🚀 Configured CD using ArgoCD</strong><br/>
+      Continuously monitored Kubernetes manifests
+    </td>
+  </tr>
 
-<p align="center">⬇️</p>
+  <tr>
+    <td style="padding:10px;">
+      <strong>💡 On every code change</strong><br/>
+      Pipeline triggers automatically → New image deployed on Kubernetes cluster
+    </td>
+  </tr>
+</table>
 
-📜 Wrote Shell Script in Pipeline
-Automatically updated image tags in Kubernetes manifests
-
-<p align="center">⬇️</p>
-
-🚀 Configured CD using ArgoCD
-Continuously monitored Kubernetes manifests
-
-<p align="center">⬇️</p>
-
-💡 On every code change
-Pipeline triggers automatically → New image deployed on Kubernetes cluster
 
 ---
 
