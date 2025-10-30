@@ -27,17 +27,38 @@ I created this project **from scratch**, including the entire **DevOps automatio
 
 ### ⚙️ DevOps Implementation Flow
 
-1️⃣ Created Dockerfile → Containerized the application
+<div align="center">
+⚙️ DevOps Implementation Flow
+
+🛠️ Created Dockerfile
+Containerized the application
+
 ⬇️
-2️⃣ Built CI Pipeline on Azure DevOps → Automated Build & Push process
+
+🤖 Built CI Pipeline on Azure DevOps
+Automated Build & Push process
+
 ⬇️
-3️⃣ Used Docker Hub → Stored built images
+
+🐳 Used Docker Hub
+Stored built images
+
 ⬇️
-4️⃣ Wrote Shell Script in Pipeline → Automatically updated image tags in Kubernetes manifests
+
+📜 Wrote Shell Script in Pipeline
+Automatically updated image tags in Kubernetes manifests
+
 ⬇️
-5️⃣ Configured CD using ArgoCD → Continuously monitored Kubernetes manifests
+
+🚀 Configured CD using ArgoCD
+Continuously monitored Kubernetes manifests
+
 ⬇️
-6️⃣ On every code change → Pipeline triggers automatically → New image deployed on Kubernetes cluster
+
+💡 On every code change
+Pipeline triggers automatically → New image deployed on Kubernetes cluster
+
+</div>
 
 
 ---
