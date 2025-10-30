@@ -105,14 +105,10 @@ Both setups were successfully tested to ensure full automation and reliability.
 
 ---
 
-## 🧭 Project Highlights
+## CI Pipeline
 
-- 🔄 Fully automated CI/CD pipeline.
-- 🧰 Used **self-hosted agents** for builds.
-- 🐳 Built and pushed Docker images seamlessly.
-- ⚡ Automated manifest updates using **shell scripting**.
-- ☸️ Real-time deployments with **ArgoCD**.
-- 🧠 Designed with scalability and learning in mind.
+<img width="1138" height="328" alt="image" src="https://github.com/user-attachments/assets/e9b4807a-7273-468f-b65e-63e8454b35a4" />
+
 
 ---
 
