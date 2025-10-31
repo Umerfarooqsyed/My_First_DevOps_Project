@@ -13,7 +13,7 @@ I created this project **from scratch**, including the entire **DevOps automatio
 | Category | Tools / Technologies |
 |-----------|----------------------|
 | **Version Control** | <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="20" align="center"/> **Git** &nbsp;&nbsp; <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" align="center"/> **GitHub** |
-| **CI/CD Platform** | <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Azure_DevOps_Logo.svg" width="20" align="center"/> **Azure DevOps** |
+| **CI/CD Platform** | <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/azuredevops.svg" width="20" align="center"/> **Azure DevOps** |
 | **Containerization** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="25" align="center"/> **Docker** |
 | **Container Registry** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="25" align="center"/> **Docker Hub** |
 | **Infrastructure / Orchestration** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="25" align="center"/> **Kubernetes (local cluster & Azure AKS)** |
